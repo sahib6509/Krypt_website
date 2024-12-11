@@ -1,0 +1,191 @@
+
+/* 
+
+* {
+    outline: 2px solid white;
+  }
+
+*/
+
+
+body{
+    font-family: 'alice';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url("https://newsroom.cisco.com/c/dam/r/newsroom/en/us/migrated-assets/Cybersecurity_MarketGrowth_041219_thumb_800x450-jpg-1979585-1-0.jpg");
+    
+    /*background-repeat: no-repeat; */
+    background-size: cover;
+}
+
+
+
+div{
+    color: white;
+}
+
+#val{
+
+    height: 70px;
+    width: auto;
+    margin: 0;
+    padding: 20px;
+    font-size: 56px;
+    background-color: #1f0305;
+
+}
+
+.heading {
+    color: #03fc4e;
+    text-align: center;
+}
+
+
+.desc {
+    font-size: 24px;
+    padding-bottom: 64px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #5f121c; */
+    display: flex;
+    margin: 0;
+    padding: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bio {
+    padding-right: 30px;
+    color: white;
+    flex: 1;
+}
+
+
+.bio .strong{
+    font-family: alice-regular;
+    padding-right: 30px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(43, 153, 255);
+    color: white;
+    border: 0px;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
+/* new stuff*/
+
+.body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    flex-basis: 0;
+    font-size: 16px;
+    padding: 16px;
+}
+
+.card img{
+    width: 170px;
+    height: 170px;
+    border-radius: 8px;
+}
+
+.images img{
+    height: 200px;
+    border-radius: 8px;
+}
+
+.outro {
+    background-color: #1f0305;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 128px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #03fc4e;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.author {
+    color: #03fc4e;
+    padding: 10px;
+    margin-top: 0;
+    margin-left: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.contactbox {
+    background-color: rgb(6, 28, 48);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    padding: 16px 128px;
+    margin: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    margin-right: 96px;
+    flex: 2 1 0;
+    font-size: 16px;
+}
+
+.signup {
+    display: flex;
+    border: 2px solid white;
+    margin: 0;
+    padding: 8px 16px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 0 1 0;
+}
+
+
+
